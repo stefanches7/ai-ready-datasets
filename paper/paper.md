@@ -1,20 +1,20 @@
 ---
-title: 'BioHackEU22 Report for Project 26: Shedding the light on unknown chemical substances'
+title: 'BioHackEU22 Template'
 title_short: 'BioHackEU22 #26: unknown chemical substances'
 tags:
   - cheminformatics
   - PubChem
   - unknown chemical substances
 authors:
-  - name: Egon Willighagen
+  - name: First Author
     affiliation: 1
-  - name: Pjotr Prins
-    orcid: 0000-0002-8021-9162
+  - name: Last Author
+    orcid: 0000-0000-0000-0000
     affiliation: 2
 affiliations:
-  - name: Dept of Bioinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, Maastricht, NL
+  - name: First Affiliation
     index: 1
-  - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
+  - name: Second Affiliation
     index: 2
 date: 8 November 2022
 cito-bibliography: paper.bib
@@ -35,10 +35,56 @@ authors_short: Egon Willighagen \emph{et al.}
 
 As part of the BioHackathon Europe 2022, we here report...
 
+# Formatting
+
+This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
+
+## Subsection level 2
+
+Please keep sections to a maximum of only two levels.
+
+## Tables and figures
+
+Tables can be added in the following way, though alternative are possible:
+
+Table 1
+| Header 1 | Header 2 |
+| -------- | -------- |
+| item 1 | item 2 |
+| item 3 | item 4 |
+
+Tables and figures should be given before the are mentioned in the main text.
+A figure is added with:
+
+![BioHackrXiv logo](./biohackrxiv.png)
+ 
+Figure 1. The BioHackrXiv logo.
+
+# Other main section on your manuscript level 1
+
+Lists can be added with:
+
+1. Item 1
+2. Item 2
+
+# Citation Typing Ontology annotation
+
+You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
+Using this template, you can cite an article and indicate why we cite that article about DisGeNET-RDF [@citesAsAuthority:Queralt2016].
+
+Possible CiTO typing annotation include:
+
+* citesAsDataSource: when you point the reader to a source of data which may explain a claim
+* usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
+* usesMethodIn
+* citesAsAuthorit
+* discusses
+* extends
+* agreesWith
+* disagreesWith
+
 # Results
 
-You can use CiTO annotations, as explained in https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md
-so that when we cite an article, we can indicate why we cite that article about DisGeNET-RDF [@citesAsAuthority:Queralt2016].
 
 # Discussion
 
