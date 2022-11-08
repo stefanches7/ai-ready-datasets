@@ -5,8 +5,10 @@ Minimal example of a BioHackrXiv publication that can be generated with the
 
 ## Template Repository
 
-This repository is a template repository. This means you can hit the green "Use this repository"
-button to use it as a template to start a new BioHackrXiv Publication.
+This repository is a template repository. This means you can hit the green "Use this template"
+button to use it as a template to start a new BioHackrXiv Publication:
+
+![Screenshot of the green "Use this template" button.](paper/use-this-template.png)
 
 ## Configuring the Markdown
 
