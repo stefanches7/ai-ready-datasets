@@ -38,7 +38,7 @@ As part of the BioHackathon Europe 2022, we here report...
 # Results
 
 You can use CiTO annotations, as explained in https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md
-so that when we cite an article, we can indicate why we cite that article about DisGeNET-RDF [@citessAuthority:Queralt2016].
+so that when we cite an article, we can indicate why we cite that article about DisGeNET-RDF [@citesAsAuthority:Queralt2016].
 
 # Discussion
 
