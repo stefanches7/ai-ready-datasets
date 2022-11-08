@@ -8,10 +8,15 @@ tags:
 authors:
   - name: Egon Willighagen
     affiliation: 1
+  - name: Pjotr Prins
+    orcid: 0000-0002-8021-9162
+    affiliation: 2
 affiliations:
   - name: Dept of Bioinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
-date: 7 November 2022
+  - name: Department of Genetics, Genomics and Informatics, The University of Tennessee Health Science Center, Memphis, TN, USA.
+    index: 2
+date: 8 November 2022
 cito-bibliography: paper.bib
 event: BH22EU
 biohackathon_name: "BioHackathon Europe 2022"
