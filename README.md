@@ -1,7 +1,7 @@
 # BioHackrXiv Publication Template
 
-Minimal example of a BioHackrXiv publication that can be generated with the
-[Preview Server](http://preview.biohackrxiv.org/).
+Minimal example of a [BioHackrXiv](https://biohackrxiv.org/) publication that can be generated with the
+[Preview Service](http://preview.biohackrxiv.org/).
 
 ## Step 1: Clone this Template Repository
 
