@@ -1,6 +1,6 @@
 ---
-title: 'BioHackEU22 Template'
-title_short: 'BioHackEU22 #26: unknown chemical substances'
+title: 'BioHackEU23 report: Template for the very long title'
+title_short: 'BioHackEU23 #26: unknown chemical substances'
 tags:
   - cheminformatics
   - PubChem
@@ -16,12 +16,12 @@ affiliations:
     index: 1
   - name: Second Affiliation
     index: 2
-date: 8 November 2022
+date: 8 November 2023
 cito-bibliography: paper.bib
-event: BH22EU
-biohackathon_name: "BioHackathon Europe 2022"
+event: BH23EU
+biohackathon_name: "BioHackathon Europe 2023"
 biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Paris, France, 2022"
+biohackathon_location: "Barcelona, Spain, 2023"
 group: Project 26
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/publication-template
@@ -33,7 +33,7 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2022, we here report...
+As part of the BioHackathon Europe 2023, we here report...
 
 # Formatting
 
@@ -67,8 +67,8 @@ Lists can be added with:
 
 # Citation Typing Ontology annotation
 
-You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
-Using this template, you can cite an article and indicate why you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].
+You can use [CiTO](http://purl.org/spar/cito/2018-02-12) annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
+Using this template, you can cite an article and indicate _why_ you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].
 
 Possible CiTO typing annotation include:
 
@@ -76,10 +76,23 @@ Possible CiTO typing annotation include:
 * usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
 * usesMethodIn
 * citesAsAuthority
+* citesAsEvidence
+* citesAsPotentialSolution
+* citesAsRecommendedReading
+* citesAsRelated
+* citesAsSourceDocument
+* citesForInformation
+* confirms
+* documents
+* providesDataFor
+* obtainsSupportFrom
 * discusses
 * extends
 * agreesWith
 * disagreesWith
+* updates
+* citation: generic citation
+
 
 # Results
 
