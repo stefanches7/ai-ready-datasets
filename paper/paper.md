@@ -47,12 +47,13 @@ Please keep sections to a maximum of only two levels.
 
 Tables can be added in the following way, though alternatives are possible:
 
+Table: Note that table caption is automatically numbered and should be
+given before the table itself.
+
 | Header 1 | Header 2 |
 | -------- | -------- |
 | item 1 | item 2 |
 | item 3 | item 4 |
-
-Table: Note that table caption is automatically numbered.
 
 A figure is added with:
 
