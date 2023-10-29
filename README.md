@@ -72,7 +72,12 @@ The following fields should only be changed if you are not writing for the BioHa
 * biohackathon_url:   "https://biohackathon-europe.org/"
 * biohackathon_location: "Paris, France, 2022"
 
-## Step 3: Previewing the paper as PDF
+## Step 3: Writing the article
+
+A full Markdown example is given in [paper/paper.md](paper/paper.md). This includes instructions how to include
+figures, tables, and annotate citations with the Citation Typing Ontology.
+
+## Step 4: Previewing the paper as PDF
 
 This repository can be converted into a preview PDF with BioHackrXiv [Preview Server](http://preview.biohackrxiv.org/).
 The preview website asks for the link to your repository and will automatically find the `paper.md` and create an PDF.
