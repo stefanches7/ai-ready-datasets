@@ -25,6 +25,7 @@ tags:
   - unknown chemical substances
 authors:
   - name: Egon Willighagen
+    orcid: 0000-0001-7542-0286
     affiliation: 1
 affiliations:
   - name: Dept of Bioinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, Maastricht, NL
@@ -52,7 +53,7 @@ The following fields should be changed:
 * title
 * title_short
 * tags
-* authors
+* authors (name and optionally their ORCID identifier)
 * affiliations
 * date
 * group
