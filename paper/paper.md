@@ -1,6 +1,6 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'BioHackSWAT4HCLS25 report: Template for the very long title'
+title_short: 'BioHackSWAT4HCLS25 #26: unknown chemical substances'
 tags:
   - cheminformatics
   - PubChem
@@ -19,10 +19,10 @@ affiliations:
     index: 2
 date: 8 November 2023
 cito-bibliography: paper.bib
-event: BH23EU
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
+event: BH25SWAT4HCLS
+biohackathon_name: "BioHackathon SWAT4HCLS 2025"
+biohackathon_url:   "[https://www.swat4ls.org/](https://www.swat4ls.org/workshops/barcelona2025/programme/swat4hcls-2025-biohackathon/)"
+biohackathon_location: "Barcelona, Spain, 2025"
 group: Project 26
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/publication-template
@@ -34,7 +34,7 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2023, we here report...
+As part of the SWAT4HCLS BioHackathon 2025, we here report...
 
 ## Author information
 
