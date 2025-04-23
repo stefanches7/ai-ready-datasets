@@ -77,7 +77,7 @@ biohackathon_url:   "[https://www.swat4ls.org/](https://www.swat4ls.org/workshop
 biohackathon_location: "Barcelona, Spain, 2025"
 group: Project 5
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/SWAT4HCLS/ai-ready-datasets
+git_url: https://github.com/stefanches7/ai-ready-datasets
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: Meldal B., Wilsenach J. _et al._
