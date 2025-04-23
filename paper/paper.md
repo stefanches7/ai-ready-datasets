@@ -36,7 +36,7 @@ authors:
   - name: Johannes Kalmbach
     orcid: 0000-0002-5582-1610
     affiliations: [8]
-  - name: Satwant
+  - name: Satwant Kaur
     orcid: 0000-0002-8653-6791
     affiliations: [9]
 
@@ -79,7 +79,7 @@ group: Project 5
 git_url: https://github.com/SWAT4HCLS/ai-ready-datasets
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: D. Steinberg \emph{et al.}
+authors_short: Meldal B., Wilsenach J. _et al._
 ---
 
 
