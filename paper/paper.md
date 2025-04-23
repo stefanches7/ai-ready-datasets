@@ -127,11 +127,11 @@ Firstly, a challenge for the bioimaging datasets is the size of the images, whic
 
 ## VCF files to Dataframes
 
-As part of our effort to make genomic data more AI-ready, we explored methods for loading Variant Call Format (VCF) data directly into dataframes using modern tooling. Specifically, we tested two libraries—Biobear and Oxbow—on datasets from the Thousand Genomes Project. Our goal was to streamline the path from raw genomic data to structured formats suitable for analysis and machine learning workflows. While both tools successfully parsed and structured basic metadata from the VCF files, neither was able to capture the full variant call information, which is critical for downstream genomic analysis. This limitation highlights the need for more robust support in tooling that bridges genomics and AI. \\
+As part of our effort to make genomic data more AI-ready, we explored methods for loading Variant Call Format (VCF) data directly into dataframes using modern tooling. Specifically, we tested two libraries—Biobear and Oxbow—on datasets from the Thousand Genomes Project. Our goal was to streamline the path from raw genomic data to structured formats suitable for analysis and machine learning workflows. While both tools successfully parsed and structured basic metadata from the VCF files, neither was able to capture the full variant call information, which is critical for downstream genomic analysis. This limitation highlights the need for more robust support in tooling that bridges genomics and AI. <br /> 
 
-[Colab notebook demonstrating a potential solution with Oxbow and Biobear](https://colab.research.google.com/drive/1lPUaZnASjBLb7KfL28Qxa3qDqQ7YOykI?usp=sharing) \\
+[Colab notebook demonstrating a potential solution with Oxbow and Biobear](https://colab.research.google.com/drive/1lPUaZnASjBLb7KfL28Qxa3qDqQ7YOykI?usp=sharing) <br /> 
 
-[Oxbow Github repository](https://github.com/abdenlab/oxbow) \\
+[Oxbow Github repository](https://github.com/abdenlab/oxbow) <br /> 
 [Biobear Github repository](https://github.com/wheretrue/biobear)
 
 ## Updating Croissant-Editor for Controlled Vocabularies
@@ -153,7 +153,7 @@ We conducted network analysis of the knowledge graph, studying its topology to i
 See Fig. X for visualisation of the creator and keyword relationships. The plot also suggests possible underidentification of some authors by their arxiv entries only. Larger scale analyses could reveal specific clusters of authors associated with particular keywords.
 
 
-[!Visualisation of keyword and author entities linked by “creator” (creat) and “keyword” (key) relationships for a small subset of the hugging face dataset. Arrows indicate the direction of annotation.](images/graph-viz.png)
+![Visualisation of keyword and author entities linked by “creator” (creat) and “keyword” (key) relationships for a small subset of the hugging face dataset. Arrows indicate the direction of annotation.](images/graph-viz.png)
 
 ## Croissant-RDF Project Outreach and Technical Contributions
 
