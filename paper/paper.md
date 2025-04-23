@@ -84,7 +84,7 @@ authors_short: Meldal B., Wilsenach J. _et al._
 ---
 
 
-# Introduction
+## Introduction
 At the SWAT4HCLS 2025 Hackathon, we continued our work on dataset interoperability and AI-readiness, extending our efforts from the 2024 Elixir Biohackathon. This report outlines the progress made in graph serialization, metadata embedding, and knowledge graph analysis, which further enhance machine learning workflows and data integration.
 
 ## Background
@@ -162,8 +162,10 @@ Numerous updates were made to the croissant-rdf package during this time. The to
 
 Throughout the hackathon, we actively maintained the croissant-rdf GitHub repository, addressing open issues and documenting our progress. A poster summarizing our previous work was presented at the SWAT4HCLS hackathon, and we participated in biohackathon discussions to share updates and gather feedback for future development.
 
-# Conclusion
+## Conclusion
 
 The SWAT4HCLS 2025 Hackathon marked a significant step forward in our ongoing efforts to bridge the gap between machine learning and life sciences through standardized, AI-ready datasets. By enhancing tools like croissant-rdf and Croissant-editor, embedding metadata into Parquet files, and aligning dataset structures with ontologies, we addressed critical challenges in dataset interoperability, discoverability, and semantic integration. Our exploration of graph serialization, controlled vocabulary tagging, and variant call data handling further demonstrates the importance of robust, scalable tooling to support complex biomedical data workflows.
 These efforts are part of a broader vision to make high-quality, annotated datasets more accessible for both domain experts and AI practitioners. Initiatives like the BioHackathon organization on Hugging Face and our work on RDF-based metadata curation reinforce a community-driven approach to building reusable infrastructure that can support cross-platform data sharing and federation.
 Looking ahead, our focus will be on expanding support for bioimaging and genomics datasets, improving metadata compliance and accessibility, quantifying the connectivity of the dataset knowledge graph and addressing infrastructure challenges around large data hosting and authenticated access. By continuing to refine Croissant tools and grow the dataset ecosystem, we aim to enable more transparent, interpretable, and FAIR machine learning applications in biomedical research.
+
+## References
