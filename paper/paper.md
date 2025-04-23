@@ -106,7 +106,7 @@ To achieve this, we specifically identified datasets and generated mappings from
 The use of controlled vocabularies like NCIT not only improves the semantic meaning of the metadata but also enhances the discoverability of datasets. Researchers can search and query datasets more effectively when they share a common understanding of the terminology, leading to better data reuse and collaboration across disciplines. This also enables the joining of datasets from different sources, making it possible to combine and compare data across studies and domains.
 Ultimately, this work supports the goal of enabling complex queries across datasets by leveraging the knowledge graph structure. By using ontologies to standardize metadata, we can more easily query and analyze data from multiple datasets, allowing for sophisticated federated queries and more comprehensive insights in bioinformatics and machine learning contexts.
 
-![_Figure 1_. Semantic mapping between two datasets, XeTute and Ruwanthi](images/image1.png)
+![Semantic mapping between two datasets, XeTute and Ruwanthi](images/xetute-ruwanthi.png)
 
 This image illustrates the semantic mapping between two datasets, XeTute `[@citesAsDataSource:xetute]` and Ruwanthi `[@citesAsDataSource:ruwanthi]`, by aligning dataset headers with ontology-backed CURIE annotations. By curating these semantic annotations, we enhance dataset interoperability, enabling more robust model training and testing across multiple datasets. This highlights the need for integrating such annotations into the Croissant specification metadata to standardize and improve AI-ready datasets.
 
@@ -119,7 +119,7 @@ The goal was to enable structured queries using DuckDB `[@citesAsPotentialSoluti
 
 We expanded our work to include contributions to the Life Sciences collection and collaborations with BiohackEU, focusing on preparing more datasets for AI-readiness. A particular highlight was the development of a script to generate Croissant metadata for imaging datasets, specifically within IDR platform `[@usesDataFrom:williams2017image]`. IDR runs OMERO `[@citesAsPotentialSolution:usesMethodIn:williams2017image]` as the imaging repository, allowing to extract metadata for the IDR published images using OMERO metadata tools `[@obtainsSupportFrom:josh_moore_2024_14415961]` `[@usesMethodIn:obtainsSupportFrom:dvoretskii_2025_15268798]`. We used the Linked Data representation obtained from the OMERO metadata tooling for the IDR study instances. This information was used to cherry-pick the important things for the CroissantML representation of the IDR study instances. An IDR study would be a “dataset” in the CroissantML sense, consisting of images that are represented as FileObjects in Croissant. 
 
-![_Figure 2_. CroissantML representation of the IDR study 0062 (partial view).](images/image2.png)
+![CroissantML representation of the IDR study 0062 (partial view).](images/omero-croissant.png)
 
 This effort supports ongoing initiatives to make datasets more accessible and usable in machine learning contexts. 
 
@@ -146,13 +146,13 @@ Inconsistency Between Specification Examples and Data Class Definitions: In some
 
 Ambiguity of equivalentProperty Usage: The equivalentProperty attribute is introduced in the context of typing RecordSets, but its intended use and implications are not clearly defined. It is not specified whether this attribute is meant to denote semantic equivalence to properties in external ontologies or to serve another purpose. Providing a more detailed explanation and usage examples would help users understand how to apply this attribute effectively.
 
-Knowledge Graph Analysis
+## Knowledge Graph Analysis
 
 We conducted network analysis of the knowledge graph, studying its topology to identify key nodes, clusters, and relationships. This analysis provided valuable insights into the structure and connectivity of the graph, aiding in model analysis and dataset integration. Our findings contribute to a deeper understanding of how datasets can be linked and aligned with different ontologies. In particular, we provide code that could be utilised to visualise several types of metadata relationships at once, allowing for troubleshooting of the relationships between entities, the “dummy variables” and schema as a whole. 
 See Fig. X for visualisation of the creator and keyword relationships. The plot also suggests possible underidentification of some authors by their arxiv entries only. Larger scale analyses could reveal specific clusters of authors associated with particular keywords.
 
 
-Visualisation of keyword and author entities linked by “creator” (creat) and “keyword” (key) relationships for a small subset of the hugging face dataset. Arrows indicate the direction of annotation.
+[!Visualisation of keyword and author entities linked by “creator” (creat) and “keyword” (key) relationships for a small subset of the hugging face dataset. Arrows indicate the direction of annotation.](images/graph-viz.png)
 
 ## Croissant-RDF Project Outreach and Technical Contributions
 
