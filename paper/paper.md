@@ -15,31 +15,31 @@ tags:
 authors:
   - name: Birgit Meldal
     orcid: 0000-0003-4062-6158
-    affiliations: [1]
+    affiliation: 1
   - name: James Wilsenach
     orcid: 0000-0001-8214-9009
-    affiliations: [2, 3]
+    affiliation: 2, 3
   - name: Stefan Dvoretskii
     orcid: 0000-0001-7769-0167
-    affiliations: [4]
+    affiliation: 4
   - name: Agoritsa T. Kalampaliki
     orcid: 0009-0005-9948-2242
-    affiliations: [5]
+    affiliation: 5
   - name: Vincent Emonet
     orcid: 0000-0002-1501-1082
-    affiliations: [6]
+    affiliation: 6
   - name: Jerven Bolleman
     orcid: 0000-0002-7449-1266
-    affiliations: [6]
+    affiliation: 6
   - name: Sophie Eisele
     orcid: 0009-0000-2965-7370
-    affiliations: [7]
+    affiliation: 7
   - name: Johannes Kalmbach
     orcid: 0000-0002-5582-1610
-    affiliations: [8]
+    affiliation: 8
   - name: Satwant Kaur
     orcid: 0000-0002-8653-6791
-    affiliations: [9]
+    affiliation: 9
 
 affiliations:
   - index: 1
