@@ -11,6 +11,7 @@ tags:
   - VCF
   - Bioinformatics
   - Life Science
+
 authors:
   - name: Birgit Meldal
     orcid: 0000-0003-4062-6158
@@ -51,10 +52,10 @@ affiliations:
     name: Earlham Institute, Norwich, UK
     ror: 018cxtf62    # Earlham Institute ROR :contentReference[oaicite:2]{index=2}
   - index: 4
-    name: German Cancer Research Center: Heidelberg, DE
+    name: German Cancer Research Center, Heidelberg, DE
     ror: 04cdgtt98    # German Cancer Research Center ROR :contentReference[oaicite:3]{index=3}
   - index: 5
-    name: Alexander Fleming Biomedical Sciences Research Center: Athens, GR
+    name: Alexander Fleming Biomedical Sciences Research Center, Athens, GR
     ror: 013x0ky90    # Alexander Fleming Biomedical Sciences Research Center ROR :contentReference[oaicite:4]{index=4}
   - index: 6
     name: Swiss Institute for Bioinformatics, Geneva, CH
