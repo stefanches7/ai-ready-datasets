@@ -113,7 +113,7 @@ Ultimately, this work supports the goal of enabling complex queries across datas
 
 ![Semantic mapping between two datasets, XeTute and Ruwanthi](../images/xetute-ruwanthi.png)
 
-This image illustrates the semantic mapping between two datasets, XeTute `[@citesAsDataSource:xetute]` and Ruwanthi `[@citesAsDataSource:ruwanthi]`, by aligning dataset headers with ontology-backed CURIE annotations. By curating these semantic annotations, we enhance dataset interoperability, enabling more robust model training and testing across multiple datasets. This highlights the need for integrating such annotations into the Croissant specification metadata to standardize and improve AI-ready datasets.
+This image illustrates the semantic mapping between two datasets, XeTute [@citesAsDataSource:xetute] and Ruwanthi [@citesAsDataSource:ruwanthi], by aligning dataset headers with ontology-backed CURIE annotations. By curating these semantic annotations, we enhance dataset interoperability, enabling more robust model training and testing across multiple datasets. This highlights the need for integrating such annotations into the Croissant specification metadata to standardize and improve AI-ready datasets.
 
 ### Embedding Croissant Metadata in Parquet Files
 As an exploration into improving dataset usability in machine learning, we embedded Croissant metadata directly into Parquet files. By storing this metadata under a dedicated "croissant" key, we created self-describing data files that allow dataset attributes to be easily accessed and understood within AI workflows. This approach facilitates more intuitive interactions with the dataset, as the metadata is stored alongside the data itself.
