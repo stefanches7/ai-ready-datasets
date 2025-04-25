@@ -13,60 +13,65 @@ tags:
   - Life Science
 
 authors:
+  - name: David Steinberg
+    orcid: 0000-0001-6683-2270
+    affiliation: 1
   - name: Birgit Meldal
     orcid: 0000-0003-4062-6158
-    affiliation: 1
+    affiliation: 2
   - name: James Wilsenach
     orcid: 0000-0001-8214-9009
-    affiliation: 2, 3
+    affiliation: 3,4
   - name: Stefan Dvoretskii
     orcid: 0000-0001-7769-0167
-    affiliation: 4
+    affiliation: 5
   - name: Agoritsa T. Kalampaliki
     orcid: 0009-0005-9948-2242
-    affiliation: 5
+    affiliation: 6
   - name: Vincent Emonet
     orcid: 0000-0002-1501-1082
-    affiliation: 6
+    affiliation: 7
   - name: Jerven Bolleman
     orcid: 0000-0002-7449-1266
-    affiliation: 6
+    affiliation: 7
   - name: Sophie Eisele
     orcid: 0009-0000-2965-7370
-    affiliation: 7
+    affiliation: 8
   - name: Johannes Kalmbach
     orcid: 0000-0002-5582-1610
-    affiliation: 8
+    affiliation: 9
   - name: Satwant Kaur
     orcid: 0000-0002-8653-6791
-    affiliation: 9
+    affiliation: 10
 
 affiliations:
   - index: 1
+    name: Camber
+  - index: 2
     name: Pfizer UK
     ror: 04x4v8p40    # Pfizer (United Kingdom) ROR :contentReference[oaicite:0]{index=0}
-  - index: 2
+  - index: 3
     name: Alan Turing Institute, London, UK
     ror: 035dkdb55    # The Alan Turing Institute ROR :contentReference[oaicite:1]{index=1}
-  - index: 3
+  - index: 4
     name: Earlham Institute, Norwich, UK
     ror: 018cxtf62    # Earlham Institute ROR :contentReference[oaicite:2]{index=2}
-  - index: 4
+  - index: 5
     name: German Cancer Research Center, Heidelberg, DE
     ror: 04cdgtt98    # German Cancer Research Center ROR :contentReference[oaicite:3]{index=3}
-  - index: 5
+  - index: 6
     name: Alexander Fleming Biomedical Sciences Research Center, Athens, GR
     ror: 013x0ky90    # Alexander Fleming Biomedical Sciences Research Center ROR :contentReference[oaicite:4]{index=4}
-  - index: 6
+  - index: 7
     name: Swiss Institute for Bioinformatics, Geneva, CH
     ror: 002n09z45    # SIB Swiss Institute of Bioinformatics ROR :contentReference[oaicite:5]{index=5}
-  - index: 7
+  - index: 8
     name: University of Oxford, Oxford, GB
     ror: 052gg0110    # University of Oxford ROR :contentReference[oaicite:6]{index=6}
-  - index: 8
+  - index: 9
     name: University of Freiburg, Department of Computer Science, Germany
     ror: 0245cg223    # University of Freiburg ROR :contentReference[oaicite:7]{index=7}; affiliation per DBLP :contentReference[oaicite:8]{index=8}
-  - index: 9
+  - index: 10
     name: European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, UK
     ror: 02catss52    # European Bioinformatics Institute ROR :contentReference[oaicite:9]{index=9}; current affiliation via ARDC Research Link :contentReference[oaicite:10]{index=10}
 date: 27 February 2025
