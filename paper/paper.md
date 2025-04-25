@@ -85,7 +85,7 @@ group: Project 5
 git_url: https://github.com/stefanches7/ai-ready-datasets
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Steinberg D., Dvoretskii S., Emonet V., Meldal B. _et al._
+authors_short: Steinberg D., Wilsenach J., Dvoretskii S., Meldal B. _et al._
 ---
 
 
